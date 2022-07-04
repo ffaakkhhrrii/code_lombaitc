@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Growing UP SIJA Developer - 4Key$</title>
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="icon" href="image/logo-modified.png">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+  <!-- Google Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Poppins:wght@200;300&family=Quicksand&family=Rambla&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Red+Hat+Display:wght@700&family=Varela+Round&display=swap" rel="stylesheet">
+  <!-- Font End -->
+
+  <style type="text/css">
+    .loading{
+      position: fixed;
+      background: #fff;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .disspear{
+      animation: hilang 5s forwards;
+    }
+
+    @keyframes hilang{
+      100%{
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
+
+  </style>
+
+</head>
+
+<body>
+  <div class="loading">
+    <img src="image/load/preloader.gif">
+  </div>
+  <!-- Home -->
+
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0D6EFD;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">4Key$</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Info
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#info">Basic</a></li>
+              <li><a class="dropdown-item" href="another.html">Another</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#partner">Partner</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-us">About Us</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+    </nav>
+
+
+    <style type="text/css">
+    @media screen and (max-width: 768px){
+
+      .kolom{
+        margin: 0px;
+      }
+
+      .kolom .deskripsi{
+        font-size: 20px;
+      }
+      .kolom h2{
+        font-size: 40px;
+      }
+
+      .home-img{
+        max-width: 300px;
+        max-height: 300px;
+      }
+    }
+    </style>
+
+    <div class="t-Home" id="home">  
+    <div class="header">
+      <div class="row">
+        <div class="col">
+          <img data-aos="fade-right" class="home-img" src="image/logo-homeee.png" style="width:400px;height: 400px;margin-top: 25%;">
+        </div>
+        <div class="col">
+         <div class="kolom" data-aos="fade-left"  style="margin-top: 30%;">
+          <p class="deskripsi">Welcome To Our Website</p>
+          <h2>Growing UP SIJA </h2>
+          <h2>Developer</h2>
+        </div>
+      </div>
+    </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+
+  </div>
+<!-- End -->
+
+<!-- Info -->
+
+<div id="info">
+
+  <div data-aos="fade-up" data-aos-duration="2000" class="awal-partner">
+    <div class="title-partner">
+      <h1>Info</h1>
+    </div>
+    <div class="line-partner"></div>
+  </div>
+
+  <style type="text/css">
+    @media screen and (max-width: 768px){
+      .info-img{
+        max-width: 300px;
+        max-height: 200px;
+        margin-left: 30px;
+      }
+      .info .info-content{
+        margin-left: 70px;
+      }
+      .info .info-content h5{
+        font-size: 20px;
+        color: black;
+      }
+      .info .info-content p{
+        font-size: 15px;
+      }
+      .info-data p{
+        font-size: 15px;
+      }
+      .info-data h4{
+        font-size: 23px;
+      }
+    }
+  </style>
+
+  <div class="container">
+    <div class="info">
+      <div class="row">
+        <div class="col">
+          <img data-aos="fade-right" class="info-img" data-aos-duration="2000" src="image/geedung.jpg" style="width: 400px;height: 300px; ">
+        </div>
+        <div data-aos="fade-left" data-aos-duration="2000" class="info-content col-7">
+          <h5>Sistem Informatika, Jaringan dan Aplikasi (SIJA)</h5>
+          <p> Sistem Informatika, Jaringan, dan Aplikasi (SIJA) merupakan kompetensi keahlian baru berbasis Teknologi Informasi dan Komunikasi pada program keahlian Teknik Komputer dan Informatika yang mulai dibuka pada Tahun Pelajaran 2017/2018 untuk program pendidikan SMK dengan pembelajaran empat (4) tahun. Sesuai dengan Keputusan Dirjen Dikdasmen Kemendikbud Nomor: 4678/D/KEP/MK/2016. Jurusan SIJA pada SMKN 26 memiliki 4 Tahun Masa Pelajaran, yaitu belajar di sekolah selama 3 tahun dan belajar di industri selama 1 tahun.Jurusan ini gabungan dari Rekayasa Perangkat Lunak (RPL ) dan Teknik Komputer Jaringan ( TKJ ).</p>
+        </div>
+      </div>
+      <center>
+        <div class="info-data" data-aos="zoom-in-up" data-aos-duration="3000">
+          <div class="row">
+            <div class="col">
+              <span class="iconify" data-icon="ph:student" style="color: black;width: 50px;height: 70px;"></span>
+              <p>Student</p>
+              <h4 class="counter" data-target="212">0</h4>
+            </div>
+            <div class="col">
+              <span class="iconify" data-icon="fa-solid:chalkboard-teacher" style="color: black;width: 50px;height: 70px;"></span>
+              <p>Teacher</p>
+              <h4 class="counter" data-target="5">0</h4>
+            </div>
+            <div class="col">
+              <span class="iconify" data-icon="simple-icons:googleclassroom" style="color: black;width: 50px;height: 70px;"></span>
+              <p>Classroom</p>
+              <h4 class="counter" data-target="6">0</h4>
+            </div>
+          </div>
+        </div>
+      </center>
+    </div>
+  </div>
+</div>
+
+
+<!-- End -->
+
+<!-- Classroom -->
+<div class="container" id="classroom">
+  <center>
+    <div class="title-classroom" data-aos="zoom-in-up" data-aos-duration="2000">
+      <div class="container">
+        <h1>Classroom</h1>
+        <hr>
+      </div>
+    </div>
+
+
+    <div class="box-all" data-aos="zoom-in-up" data-aos-duration="3000" >
+      <div class="row">
+        <div class="col">
+          <div class="card mb-3">
+            <div class="card-body">
+              <a href="X-SIJA1.html" target="_blank"><h5 class="card-title">X-SIJA 1</h5>
+                <img src="image/classroom/xsija1.jpeg"></a>
+              </div>
+            </div>
+            <div class="card mb-3">
+              <div class="card-body">
+                <a href="XI-SIJA2.html" target="_blank"><h5 class="card-title">XI-SIJA 2</h5>
+                  <img src="image/classroom/detail/detail11sija2.jpeg"></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+             <div class="card mb-3">
+              <div class="card-body">
+                <a href="X-SIJA2.html" target="_blank"><h5 class="card-title">X-SIJA 2</h5>
+                  <img src="image/classroom/10sija2.jpeg"></a>
+                </div>
+              </div>
+              <div class="card mb-3">
+                <div class="card-body">
+                  <a href="XII-SIJA1.html" target="_blank"><h5 class="card-title">XII-SIJA 1</h5>
+                    <img src="image/classroom/12sija1.jpg"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <a href="XI-SIJA1.html" target="_blank"><h5 class="card-title">XI-SIJA 1</h5>
+                      <img src="image/classroom/11sija1.jpeg"></a>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="card-body">
+                      <a href="XII-SIJA2.html" target="_blank"><h5 class="card-title">XII-SIJA 2</h5>
+                        <img src="image/classroom/12sija2.jpg"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </center>
+          </div>
+          <!-- End -->
+
+
+          <!-- Teacher -->
+
+<style type="text/css">
+  @media screen and (max-width: 768px){
+    .teacher .t-description table tr td{
+      font-size: 10px;
+    }
+  }
+</style>
+          <center>
+            <div class="title-classroom">
+              <div class="container" data-aos="zoom-in-up" data-aos-duration="2000">
+                <h1>Teacher</h1>
+                <hr>
+              </div>
+            </div>
+
+            <div class="teacher">
+              <div id="teacher-carousel" class="carousel slide" data-bs-ride="carousel" style="padding: 30px 80px 100px 80px;"  data-aos="zoom-in-up" data-aos-duration="2000">
+
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#teacher-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#teacher-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#teacher-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#teacher-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#teacher-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active slide-1" >
+                    <img src="image/teacher/BuKuri.png" alt="...">
+                    <div class="t-description">
+                      <p class="name">Kuri Asih, S.E., S.Kom.</p>
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>
+                              Tempat Lahir :
+                            </td>
+                            <td>
+                              Jakarta
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              Tanggal Lahir : 
+                            </td>
+                            <td>
+                              23 November 1978
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              Mata Pelajaran :
+                            </td>
+                            <td>
+                              DDG,SIMKOMDIG,KOMJARDAS,SaaS
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/teacher/BuEvaa.png" alt="...">
+                    <div class="t-description">
+                      <p class="name">Eva Yulizar S.Kom</p>
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>
+                              Tempat Lahir :
+                            </td>
+                            <td>
+                              Medan
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              Tanggal Lahir : 
+                            </td>
+                            <td>
+                              05 Juli 1974
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              Mata Pelajaran :
+                            </td>
+                            <td>
+                              SisKom dan Produk Kreatif dan Kewirausahaan
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/teacher/danial.png" alt="...">
+                    <div class="t-description">
+                      <p class="name">Danial Ahadian, S.Pd</p>
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>
+                              Tempat Lahir :
+                            </td>
+                            <td>
+                              Jakarta
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              Tanggal Lahir : 
+                            </td>
+                            <td>
+                              27 November 1988
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              Mata Pelajaran :
+                            </td>
+                            <td>
+                              Produktif SIJA
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/teacher/BuSeviaa.png" alt="...">
+                    <div class="t-description">
+                      <p class="name">Sevia Helena Kiranti, S.Kom</p>
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>
+                              Tempat Lahir :
+                            </td>
+                            <td>
+                              Jakarta
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              Tanggal Lahir : 
+                            </td>
+                            <td>
+                              26 September 1994
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              Mata Pelajaran :
+                            </td>
+                            <td>
+                              Sistem Internet of Things
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/teacher/samsul.png" alt="...">
+                    <div class="t-description">
+                      <p class="name">Samsul Bahri, S.Pd</p>
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>
+                              Tempat Lahir :
+                            </td>
+                            <td>
+                              Jakarta
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              Tanggal Lahir : 
+                            </td>
+                            <td>
+                              26 Mei 1994
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              Mata Pelajaran :
+                            </td>
+                            <td>
+                              Platform Komputasi Awan dan Layanan Komputasi Awan
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#teacher-carousel" data-bs-slide="prev">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#0D6EFD" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                    <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                  </svg>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#teacher-carousel" data-bs-slide="next">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#0D6EFD" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                </svg>
+              </button>
+
+            </div>
+          </div>
+        </center>
+
+
+
+        <!-- End -->
+
+
+        <!-- Partner -->
+        <div id="partner">
+          <div class="awal-partner"  data-aos="fade-right"  data-aos-duration="3000">
+            <div class="title-partner">
+              <h1>Our Partner</h1>
+            </div>
+            <div class="line-partner"></div>
+          </div>
+        </div>
+
+        <center>
+
+          <h3 class="desk-partner" data-aos="zoom-in" data-aos-duration="2000" >Kami mendapatkan ini berasal dari rekanan PKL Tahun 2020/2021 dan Tahun 2021/2022</h3>
+
+          <div class="bg-carousel" data-aos="flip-up" data-aos-duration="2000">
+
+           <h1 style="font-family: 'Varela Round', sans-serif;font-size: 36px;">2020/2021</h1>
+           <hr style="color: #FFB72B; width: 83px;height: 5px;">
+
+           <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel" style="padding: 50px;">
+
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active slide-1">
+                <img src="image/2020/alpha.png" alt="...">
+                <img src="image/adw.png" alt="...">
+                <img src="image/2020/axa.png" alt="...">
+                <img src="image/2020/datindo.png" salt="...">
+                <img src="image/happyFive.png" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="image/2020/sisindokom.png"alt="...">
+                <img src="image/2020/inaka.png" alt="...">
+                <img src="image/2020/jalalintas.png" alt="...">
+                <img src="image/compnet.png" alt="...">
+                <img src="image/lumoshivee.png" alt="...">
+              </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#0D6EFD" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+              </svg>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#0D6EFD" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+            </svg>
+          </button>
+          <a href="detail2020.html" target="_blank" style="text-decoration: none;"><button class="button-read">Detail</button></a>
+        </div>
+      </div>
+
+      <style>
+        .button-read {background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%)}
+        .button-read {
+            display: flex;
+            justify-content:flex-end;
+            margin: 10px;
+            padding: 10px 35px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 20px;
+            border: none;
+          }
+          .button-read:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+      </style>
+      <div class="bg-carousel" data-aos="flip-up" data-aos-duration="2000">
+
+       <h1 style="font-family: 'Varela Round', sans-serif;font-size: 36px;">2021/2022</h1>
+       <hr style="color: #FFB72B; width: 83px;height: 5px;">
+
+       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="padding: 50px;">
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active slide-1" >
+            <img src="image/adw.png" alt="...">
+            <img src="image/happyFive.png" alt="...">
+            <img src="image/bankbahtera.png" alt="...">
+            <img src="image/hypernett.png" alt="...">
+            <img src="image/ivatama.png" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/lumoshivee.png" alt="...">
+            <img src="image/compnet.png" alt="...">
+            <img src="image/sadikuun.png" alt="...">
+            <img src="image/shollu.png" alt="...">
+            <img src="image/sis.png" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#0D6EFD" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+            <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+          </svg>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#0D6EFD" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+          <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+        </svg>
+      </button>
+      <a href="detail2021.html" target="_blank" style="text-decoration: none;"><button class="button-read">Detail</button></a>
+    </div>
+  </div>
+</center>
+<!-- End-->
+
+<!-- About Us -->
+<div class="container" style="margin-bottom: 50px;" id="about-us">
+  <center>
+    <div class="title-us">
+      <div class="container" data-aos="zoom-in-down" data-aos-duration="2000">
+        <h1>About Us</h1>
+        <hr>
+      </div>
+    </div>
+
+    <div class="about-us">
+      <div class="col">
+        <div class="card" style="max-width: 18rem;border-radius: 20px;border: 3px solid lightblue;margin-top: 30px;"data-aos="zoom-in-up" data-aos-duration="2000" >
+          <div class="card-body">
+            <img src="image/about-us/Fakhri.png">
+            <h5 class="card-title">Fakhri Zain</h5>
+            <div class="card-text" style="line-height: 1.2em;">
+              <p>TTL: Jakarta 01 Juni 2006</p>
+              <p>Cita-cita: Mobile Developer</p>
+            </div>
+          </div>
+          <div class="card-footer border-primary">
+            <a href="https://www.instagram.com/fkhri.zain/" target="_blank">
+              <span class="iconify" data-icon="ph:instagram-logo-thin" style="color: #0D6EFD;width: 50px;height: 50px;"></span></a>
+              <a href="https://wa.me/6287884984112" target="_blank">
+                <span class="iconify" data-icon="ph:whatsapp-logo-thin" style="color: #0D6EFD;width: 50px;height: 50px;"></span></a>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <div class="card" style="max-width: 18rem;border-radius: 20px;border: 3px solid lightblue;margin-top: 10px;" data-aos="zoom-in-up" data-aos-duration="2000">
+                  <div class="card-body">
+                    <img src="image/about-us/gibran.png">
+                    <h5 class="card-title">Gibran Firdausy</h5>
+                    <div class="card-text" style="line-height: 1.2em;">
+                      <p>TTL: Jakarta 4 November 2005 </p>
+                      <p>Cita-cita: Game Developer</p>
+                    </div>
+                  </div>
+                  <div class="card-footer border-primary">
+                    <a href="https://instagram.com/gfrdausy/" target="_blank">
+                      <span class="iconify" data-icon="ph:instagram-logo-thin" style="color: #0D6EFD;width: 50px;height: 50px;"></span></a>
+                      <a href="https://wa.me/6288290257930" target="_blank">
+                        <span class="iconify" data-icon="ph:whatsapp-logo-thin" style="color: #0D6EFD;width: 50px;height: 50px;"></span></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="max-width: 18rem;border-radius: 20px;border: 3px solid lightblue;margin-top: 10px;" data-aos="zoom-in-up" data-aos-duration="2000">
+                      <div class="card-body">
+                        <img src="image/about-us/atthalah.png">
+                        <h5 class="card-title">Atthalah K.P</h5>
+                        <div class="card-text" style="line-height: 1.2em;">
+                          <p>TTL: Jakarta 26 Februari 2005</p>
+                          <p>Cita-cita: Programmer</p>
+                        </div>
+                      </div>
+                      <div class="card-footer border-primary">
+                        <a href="https://instagram.com/attallahkafka?utm_medium=copy_link" target="_blank">
+                          <span class="iconify" data-icon="ph:instagram-logo-thin" style="color: #0D6EFD;width: 50px;height: 50px;"></span></a>
+                          <a href="https://wa.me/6281284395075" target="_blank">
+                            <span class="iconify" data-icon="ph:whatsapp-logo-thin" style="color: #0D6EFD;width: 50px;height: 50px;"></span></a>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <div class="card" style="max-width: 18rem;border-radius: 20px;border: 3px solid lightblue;margin-top: 10px;" data-aos="zoom-in-up" data-aos-duration="2000">
+                      <div class="card-body">
+                        <img src="image/about-us/fendi.png">
+                        <h5 class="card-title">Fendi Setiawan</h5>
+                        <div class="card-text" style="line-height: 1.2em;">
+              <p>TTL: Kebumen, 29 Juli 2005</p>
+              <p>Cita-cita: Programmer,Rektor</p>
+            </div>
+                      </div>
+                      <div class="card-footer border-primary">
+                        <a href="https://instagram.com/_fendisetiawan26?utm_medium=copy_link" target="_blank">
+                          <span class="iconify" data-icon="ph:instagram-logo-thin" style="color: #0D6EFD;width: 50px;height: 50px;"></span></a>
+                          <a href="https://wa.me/6287775062340" target="_blank">
+                            <span class="iconify" data-icon="ph:whatsapp-logo-thin" style="color: #0D6EFD;width: 50px;height: 50px;"></span></a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </center>
+                </div>
+                <!-- End -->
+                <footer>
+                  <div class="footer-content">
+                    <div class="container">
+                     <div class="row">
+
+                      <div class="logo col">
+                        <img src="image/logo-modified.png" style="padding: 16px;">
+                        <div class="baris">
+                          <img src="image/logo-itc.png">
+                          <img src="image/logo-26.png" style="margin-left: 15px;">
+                        </div>
+                      </div>
+
+                      <div class="contact col">
+                        <h3>Contact Us</h3>
+                        <table class="contact-info">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <span class="iconify" data-icon="fluent:call-20-filled" style="color: #f8f8f8;width: 30px;height: 30px;"></span>
+                              </td>
+                              <td><a href="https://wa.me/6287884984112">+62-878-8498-4112</a></td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <div style="margin-top: 16px;">
+                                  <span class="iconify" data-icon="carbon:email" style="color: #f8f8f8;width: 30px;height: 30px;"></span>
+                                </div>
+                              </td>
+                              <td>
+                                <div style="margin-top: 16px;">
+                                  <a href="mailto:fakhrizain9@gmail.com">fakhrizain9@gmail.com</a>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+
+                      <div class="find col">
+                        <h3>Find Us</h3>
+                        <table style="margin-top: 16px;">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <span class="iconify" data-icon="ci:location" style="color: #f8f8f8;width: 30px;height: 30px;"></span>
+                              </td>
+                              <td>
+                                <a href="https://maps.app.goo.gl/biGgrHE9M7vuFQgQA" target="_blank">Jl. Balai Pustaka Baru I No.2, RW.7, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220</a>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer-bottom">
+                  <p>&copy;2022 - 4Key$</p>
+                </div>
+              </footer>
+
+              <!--JAVASCRIPT-->
+              <script type="text/javascript" src="js/bootstrap.min.js"></script>
+              <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+              <script type="text/javascript">
+                const counters = document.querySelectorAll('.counter');
+const speed = 100; // The lower the slower
+
+counters.forEach(counter => {
+  const updateCount = () => {
+    const target = +counter.getAttribute('data-target');
+    const count = +counter.innerText;
+
+    // Lower inc to slow and higher to slow
+    const inc = target / speed;
+
+    // console.log(inc);
+    // console.log(count);
+
+    // Check if target is reached
+    if (count < target) {
+      // Add inc to count and output in counter
+      counter.innerText = `${Math.ceil(count + inc)}`;
+      // Call function every ms
+      setTimeout(updateCount, 1);
+    } else {
+      counter.innerText = target;
+    }
+  };
+
+  updateCount();
+});
+
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script type="text/javascript">
+  var loading = document.querySelector(".loading")
+
+  window.addEventListener("load", hilang);
+
+  function hilang() {
+    loading.classList.add("disspear");
+  }
+</script>
+
+</body>
+</html>

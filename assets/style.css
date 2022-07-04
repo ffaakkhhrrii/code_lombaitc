@@ -1,0 +1,407 @@
+body{
+    margin-top: 1000px;
+    margin-bottom: 1000px;
+}
+.nav-link{
+    margin-right: 10px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+}
+
+.navbar a{
+    color: white;
+}
+
+.dropdown-menu a{
+    color: #7B61FF;
+}
+
+.navbar a:hover{
+    color: black;
+}
+
+.box-all a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.t-Home a{
+    text-decoration: none;
+    color: white;
+}
+
+.t-Home a:hover{
+    color: white;
+}
+
+.kolom {
+    padding-top: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.kolom .deskripsi {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Rambla', sans-serif;
+    color: black;
+}
+
+.header{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.kolom h2{
+    font-family: "PT Sans";
+    font-weight: 800;
+    font-size: 45px;
+    color: #7B61FF;
+    width: 100%;
+    line-height: 50px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.t-Home{
+    background: linear-gradient(178.95deg, rgba(13, 110, 253, 0.71) 3.09%, rgba(13, 110, 253, 0.71) 3.09%, rgba(135, 186, 215, 0.331558) 99.1%);
+
+}
+
+.awal-partner{
+    display: flex;
+    margin-top: 54px;
+    align-items: center;
+    padding: 30px 0 30px 5%;
+    position: relative;
+}
+
+.title-partner{
+    font-size: 36px;
+    font-family: 'Fredoka', sans-serif;;
+    text-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 100px;
+}
+
+.title-partner h1{
+    font-size: 36px;
+}
+
+.line-partner{
+    width: 100%;
+    height: 2px;
+    background-color: #0D6EFD;
+    font-weight: 500;
+}
+
+.box-all{
+   font-family: 'Poppins' , sans-serif;
+}
+
+.box-all .card{
+    border: 3px solid lightblue;
+    border-radius: 20px;
+    width: 350px;
+    height: 350px;
+}
+
+.box-all .card .card-body h5{
+    font-size: 25px;
+    color: black;
+}
+
+.box-all .card img{
+    border-radius: 30px;
+    width: 300px;
+    height: 178px;
+    margin-top: 70px;
+}
+
+.material-icons.sebelum{
+    size: 80px;
+}
+.bg-carousel{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(13, 110, 253, 0.31) 100%);
+    max-width: 80%;
+    border-radius: 92px;
+    box-shadow: 0px 10px grey;
+    border: 1px;
+    margin-bottom: 100px;
+}
+
+.title-classroom h1{
+    text-align: center;
+    font-family: 'Fredoka',sans-serif;
+    margin-top: 54px;
+}
+
+
+.title-year h1{
+    text-align: center;
+    font-family: 'Fredoka',sans-serif;
+    margin-top: 14px;
+}
+
+.title-year .container hr{
+    width: 100px;
+    height: 5px;
+    color: #0D6EFD;
+}
+
+.title-classroom .container hr{
+    width: 100px;
+    height: 5px;
+    color: #0D6EFD;
+}
+
+.box-all .box img{
+    width: 285px;
+    height: 178px;
+    border-radius: 20px;
+    margin-top: 30px;
+    align-content: center;
+}
+
+.box-all img:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    background: #0D6EFD;
+    height: auto;
+    color: white;
+    padding-bottom: 0.5px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.footer-content{
+    background: #97BDF4;
+}
+
+.footer-content .row .col img{
+    width: 140px;
+    height: 140px;
+}
+
+.baris{
+    margin-left: 16px;
+    padding-bottom: 16px;
+}
+
+.footer-content .row .col .baris img{
+    width: 45px;
+    height: 45px;
+}
+
+.footer-content .row .contact h3{
+    margin-top: 16px;
+}
+
+.footer-content .row .find h3{
+    margin-top: 16px;
+}
+
+
+.contact a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.contact a:hover{
+    text-decoration: none;
+    color: #0D6EFD;
+}
+
+.contact .contact-info{
+    margin-top: 16px;
+}
+
+.find a{
+    text-decoration: none;
+    color: white;
+}
+
+.find a:hover{
+    color: #0D6EFD;
+}
+
+.footer-bottom{
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+}
+
+.carousel-inner .carousel-item img{
+    max-height: 155px;
+    max-width: 155px;
+    margin:0px 20px 0px 20px;
+}
+
+.teacher .carousel-inner .carousel-item img{
+    max-height: 200px;
+    max-width: 200px;
+    margin:0px 20px 0px 20px;
+}
+
+.desk-partner{
+    margin-top: 26px;
+    margin-bottom: 39px; 
+    font-family:'Red Hat Display', sans-serif;
+    color: #0D6EFD;
+    font-size: 20px;
+}
+
+.row .info-content h5{
+    font-family: 'Quicksand',sans-serif;
+    color: #0D6EFD;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.row .info-content p{
+    font-family: 'Quicksand',sans-serif;
+    color: black;
+    font-size: 18px;
+}
+
+.info{
+    margin-top: 16px;
+}
+
+.info-data{
+    margin-top: 25px;
+}
+
+.info-data p{
+    font-family: 'Quicksand',sans-serif;
+    font-size: 23px;
+}
+
+.info-data h4{
+    font-family: 'Quicksand',sans-serif;
+    color: #0D6EFD;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.teacher{
+    background-color: #F7F7F7;
+}
+
+.community{
+    background-color: #F7F7F7;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.community h1{
+    font-family: 'Poppins',sans-serif;
+    color: #0D6EFD;
+}
+
+.community p{
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+}
+
+.teacher .t-description .name{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+    color: #0D6EFD;
+}
+
+.teacher .t-description table{
+    font-family: 'Poppins',sans-serif;
+}
+
+.teacher .carousel-indicators button{
+    background-color: #0D6EFD;
+}
+
+.title-us h1{
+    text-align: center;
+    font-family: 'Fredoka',sans-serif;
+    margin-top: 54px;
+}
+
+.title-us .container hr{
+    width: 100px;
+    height: 5px;
+    color: #0D6EFD;
+}
+
+.about-us img{
+    max-height: 155px;
+    max-width: 155px;
+    margin-top: 10px;
+}
+
+.about-us h5{
+    font-family: 'Poppins',sans-serif;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #0D6EFD;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 768px){
+
+    .carousel-inner .carousel-item img{
+        width: 100px;
+        height: 90px;
+    }
+
+    .kolom{
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    .line-partner .garis{
+        width: 100px;
+        height: 2px;
+        margin-left: 150px;
+        color: #0D6EFD;
+    }
+
+    .info{
+        display: inline-block;
+    }
+
+    .desk-partner{
+        font-size: 15px;
+    }
+
+    .info .info-content{
+        text-align: center;
+    }
+
+    .t-Home img{
+        margin-right: 100px;
+        margin-left: 0px;
+    }
+
+    .community p{
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 1200px){
+
+    .line-partner .garis{
+        width: 150px;
+        height: 2px;
+        margin-left: 150px;
+        color: #0D6EFD;
+    }
+
+}
